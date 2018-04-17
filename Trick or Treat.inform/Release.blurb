@@ -1,0 +1,55 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.inform"
+release to "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Trick or Treat.zblorb"
+storyfile "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.inform\Build\output.z8" include
+ifiction "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.inform\Metadata.iFiction" include
+cover "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.materials\Cover.png"
+picture 1 "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.materials\Cover.png"
+
+! Placeholder variables
+
+placeholder [IFID] = "2B8E6B8D-1D14-4FA8-B2C7-7A502C44A5B0"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2017"
+placeholder [TITLE] = "Trick or Treat"
+placeholder [AUTHOR] = "Ryan Kehlenbeck"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+source public
+auxiliary "C:\Program Files (x86)\Inform 7\Internal\Miscellany\IntroductionToIF.pdf" "Introduction to IF" "--"
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Trick or Treat.zblorb.js"
+template path "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.materials\Templates"
+template path "C:\Users\cube\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Parchment" "z"
+base64 "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.inform\Build\output.z8" to "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.materials\Release\interpreter\Trick or Treat.zblorb.js"
+
+! Website instructions
+
+template path "C:\Users\cube\Documents\Inform\Projects\Trick or Treat.materials\Templates"
+template path "C:\Users\cube\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line519"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line519"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

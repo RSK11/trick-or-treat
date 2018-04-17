@@ -1,0 +1,32 @@
+take sheet
+go south
+take apple
+go east
+go south
+trick or treat
+trick or treat
+go north
+go north
+trick or treat
+take pumpkin
+throw pumpkin
+take bat
+go east
+trick or treat
+go south
+go west
+run away
+go south
+attack todd
+attack todd
+eat apple
+attack todd
+attack todd
+attack todd
+eat candy
+attack todd
+take mask
+wear mask
+trick or treat
+go west
+trick or treat
