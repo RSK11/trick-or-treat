@@ -1,0 +1,43 @@
+Trick or Treat - Tech Report
+
+The game I chose to create is called "Trick or Treat." The setting is simply your average
+suburban cul-de-sac and the protagonist is a run of the mill high school baseball player. You
+adventure through your town with your best friend trying to collect candy which adds to your
+score.
+
+I accomplished a lot technically while implementing this game. Initially I set up the health
+and combat system allowing for all persons to have health and take damage. I set up damage
+and heal functions that took numbers so I could heal or damage a character at any time.
+Implementing candy for score was a big challenge because of dealing with numbers. There is a
+single piece of candy in the player inventory that prints the total number that they player has and
+all the actions relating to taking, dropping, and eating candy have been overriden to simply work
+with the number variable attached to that single piece of candy.
+
+Creating the system for all the characters that follow the player was difficult because
+they had to follow the player each move. I created a following relationship and after every "go"
+move the player makes, I make the following characters follow them. If the character is
+continuously following the player and it is not the best friend character, Jeffery, then the
+character will attempt to damage the player. This is where the enemies come into play and they
+follow you, which I think is pretty cool. The only way to completely avoid them is to run, which is
+a new action I implemented, but you will probably run into them again. Running puts the player
+and all of their followers in random locations in the street region to make the game less
+predictable.
+
+I added the trick or treat option which has a lot of synonyms like "knock" specified so it's
+easy for the player to find. This is the action the player must perform at every house to complete
+the game. This action will trigger another function for each house which begins a puzzle or
+starts a more complex chain of events. This makes the child cop chase you, the Barbara prank
+begin, and it the outcomes are different if you have a costume on and if you don't have Jeffery
+with you.
+
+I am also proud of how I overrode most of the ask and tell actions to work with my talk
+action so you can talk to Jeffery. Jeffery can help the player at every point in the game and has
+a hint for every different puzzle, which is a pretty large set of if's in the "code."
+
+Another weird thing I did is I used a lot of undescribed items. This allowed me to put their
+descriptions in the room descriptions and have them be removed with if's in the descriptions. I
+did this to allow the items to blend in with the rooms descriptions and stick out less.
+
+The puzzles aren't particularly hard, but I'm very proud of how cohesive my story is. I
+tried really hard to capture the different events and experiences that a kid can have while trick or
+treating and I think I did pretty well.
